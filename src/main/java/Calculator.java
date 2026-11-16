@@ -1,22 +1,18 @@
 public class Calculator {
-
-    public int add(int a, int b) {
-        return a + b;
+    public int add(int a, int b){
+        return a+b;
     }
-
-    public int dif(int a, int b) {
-        return a - b;
+    public int dif(int a, int b){
+        return a-b;
     }
-
-    public int div(int a, int b) {
-        return a / b;
+    public int div(int a, int b){
+        return a/b;
     }
-
-    public int times(int a, int b) {
-        return a * b;
+    public int times(int a, int b){
+        return a*b;
     }
-
-    public int solver() {
-        return dif(times(add(10, 5), 2), 4);
+    public int solver(){
+        return add(times(dif(20, 10), 4), 8);
     }
 }
+
